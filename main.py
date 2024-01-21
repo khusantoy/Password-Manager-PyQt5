@@ -54,12 +54,12 @@ class Window(QWidget):
         self.save_btn.setFixedHeight(40)
         self.save_btn.setStyleSheet("""
         QPushButton {
-            border: 2px solid #0D6EFD;
+            background-color: #0D6EFD;
             border-radius: 10px;
             color: #fff;
         }
         QPushButton:hover {
-            background-color: #0D6EFD;
+            background-color: #094F9B;
         }
         """)
 
@@ -67,12 +67,12 @@ class Window(QWidget):
         self.show_btn.setFixedHeight(40)
         self.show_btn.setStyleSheet("""
         QPushButton {
-            border: 2px solid #0D6EFD;
+            background-color: #0D6EFD;
             border-radius: 10px;
             color: #fff;
         }
         QPushButton:hover {
-            background-color: #0D6EFD;
+            background-color: #094F9B;
         }
         """)
 
@@ -80,12 +80,12 @@ class Window(QWidget):
         self.exit_btn.setFixedHeight(40)
         self.exit_btn.setStyleSheet("""
         QPushButton {
-            border: 2px solid #DC3545;
+            background-color: #DC3545;
             border-radius: 10px;
             color: #fff;
         }
         QPushButton:hover {
-            background-color: #DC3545;
+            background-color:  #A92736;
         }
         """)
 
@@ -244,12 +244,12 @@ class DisplayWindow(QWidget):
         self.back_btn.setText("Back")
         self.back_btn.setStyleSheet("""
         QPushButton {
-            border: 2px solid #0D6EFD;
+            background-color: #6C757D;
             border-radius: 10px;
             color: #fff;
         }
         QPushButton:hover {
-            background-color: #0D6EFD;
+            background-color: #495056;
         }
         """)
 
@@ -257,12 +257,12 @@ class DisplayWindow(QWidget):
         self.view_btn.setFixedHeight(40)
         self.view_btn.setStyleSheet("""
         QPushButton {
-            border: 2px solid #0DCAF0;
+            background-color: #0D6EFD;
             border-radius: 10px;
             color: #fff;
         }
         QPushButton:hover {
-            background-color: #0DCAF0;
+            background-color: #094F9B;
         }
         """)
 
@@ -270,12 +270,12 @@ class DisplayWindow(QWidget):
         self.edit_btn.setFixedHeight(40)
         self.edit_btn.setStyleSheet("""
         QPushButton {
-            border: 2px solid #FFC107;
+            background-color: #FFC107;
             border-radius: 10px;
             color: #fff;
         }
         QPushButton:hover {
-            background-color: #FFC107;
+            background-color: #D09905;
         }
         """)
 
@@ -283,12 +283,12 @@ class DisplayWindow(QWidget):
         self.delete_btn.setFixedHeight(40)
         self.delete_btn.setStyleSheet("""
         QPushButton {
-            border: 2px solid #DC3545;
+            background-color: #DC3545;
             border-radius: 10px;
             color: #fff;
         }
         QPushButton:hover {
-            background-color: #DC3545;
+            background-color:  #A92736;
         }
         """)
 
@@ -415,12 +415,12 @@ class DisplayPass(QWidget):
         self.close_btn.setText("Close")
         self.close_btn.setStyleSheet("""
         QPushButton {
-            border: 2px solid #0D6EFD;
+            background-color: #6C757D;
             border-radius: 10px;
             color: #fff;
         }
         QPushButton:hover {
-            background-color: #0D6EFD;
+            background-color: #495056;
         }
         """)
 
@@ -482,12 +482,12 @@ class WindowEdit(QWidget):
         self.update_btn.setFixedHeight(40)
         self.update_btn.setStyleSheet("""
         QPushButton {
-            border: 2px solid #198754;
+            background-color: #198754;
             border-radius: 10px;
             color: #fff;
         }
         QPushButton:hover {
-            background-color: #198754;
+            background-color: #0F5C39;
         }
         """)
 
@@ -496,12 +496,12 @@ class WindowEdit(QWidget):
         self.close_btn.setText("Close")
         self.close_btn.setStyleSheet("""
         QPushButton {
-            border: 2px solid #0D6EFD;
+            background-color: #6C757D;
             border-radius: 10px;
             color: #fff;
         }
         QPushButton:hover {
-            background-color: #0D6EFD;
+            background-color: #495056;
         }
         """)
 
